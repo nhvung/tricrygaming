@@ -28,7 +28,7 @@
     "Version": "1.0.1",
     "FileVersion": "1.0.1",
     "OutputType": "Exe",
-    "Description": "Fix bug",
+    "Description": "Lan dau tien build",
     "AssemblyName": "datatransferapi",
     "ProjectFilePath": "C:\\custom-data\\code\\tricrygaming\\src\\netcore\\services\\datatransferapi.csproj",
     "ReleaseVersion": "1.0"

@@ -1,11 +1,11 @@
 {
   "Name": "datatransferapi",
   "Version": "1.0.1",
-  "Description": "Fix bug",
-  "BuiltTimeUtcTicks": 638540138978480565,
-  "BuiltTimeUtc": "06/15/2024 02:04",
-  "BuiltTimeTicks": 638540390978480643,
-  "BuiltTime": "06/15/2024 09:04",
+  "Description": "Lan dau tien build",
+  "BuiltTimeUtcTicks": 638540139832638084,
+  "BuiltTimeUtc": "06/15/2024 02:06",
+  "BuiltTimeTicks": 638540391832638158,
+  "BuiltTime": "06/15/2024 09:06",
   "Runtime": "",
   "ReleaseVersion": "1.0",
   "TaskKey": ""

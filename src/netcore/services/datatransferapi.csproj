@@ -17,10 +17,10 @@
   <PropertyGroup>
     <Platforms>x64</Platforms>
     <Version>1.0.1</Version>
-    <FileVersion>1.0.1</FileVersion>    
+    <FileVersion>1.0.1</FileVersion>
     <AssemblyName>datatransferapi</AssemblyName>
     <OutputType>Exe</OutputType>
-    <Description>Fix bug</Description>
+    <Description>Lan dau tien build</Description>
     <OutputPath>bin</OutputPath>
     <DefineConstants>DataTransferAPI</DefineConstants>
     <SpaRoot>../libraries/DataTransferAPILib/spa</SpaRoot>
