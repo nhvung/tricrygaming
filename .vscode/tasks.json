@@ -1,0 +1,15 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "builddatatransferapi",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "build",
+                "${workspaceFolder}/src/netcore/services/datatransferapi.csproj",
+            ],
+            "problemMatcher": "$msCompile"
+        },
+    ]
+}

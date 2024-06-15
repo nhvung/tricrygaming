@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+  <ItemGroup>
+    <ProjectReference Include="../libraries/DataTransferAPILib/DataTransferAPILib.csproj" />
+  </ItemGroup>
+  <Target Name="PublishRunWebpack" AfterTargets="ComputeFilesToPublish">
+    <Exec WorkingDirectory="$(SpaRoot)" Command="npm install" />
+    <Exec WorkingDirectory="$(SpaRoot)" Command="npm run wp" />
+    <ItemGroup>
+      <DistFiles Include="../libraries/DataTransferAPILib/spa/build/**" />
+      <ResolvedFileToPublish Include="@(DistFiles-&gt;'%(FullPath)')" Exclude="@(ResolvedFileToPublish)">
+        <RelativePath>wwwroot/%(RecursiveDir)%(FileName)%(Extension)</RelativePath>
+        <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+        <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      </ResolvedFileToPublish>
+    </ItemGroup>
+  </Target>
+  <PropertyGroup>
+    <Platforms>x64</Platforms>
+    <Version>1.0.1</Version>
+    <FileVersion>1.0.1</FileVersion>    
+    <AssemblyName>datatransferapi</AssemblyName>
+    <OutputType>Exe</OutputType>
+    <Description>Fix bug</Description>
+    <OutputPath>bin</OutputPath>
+    <DefineConstants>DataTransferAPI</DefineConstants>
+    <SpaRoot>../libraries/DataTransferAPILib/spa</SpaRoot>
+    <TargetFramework>net6.0</TargetFramework>
+    <ReleaseVersion>1.0</ReleaseVersion>
+  </PropertyGroup>
+</Project>

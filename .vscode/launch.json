@@ -1,0 +1,16 @@
+{
+    "configurations": [
+        {
+            "name": "datatransferapi",
+            "type": "coreclr",
+            "request": "launch",
+            "program": "${workspaceFolder}/src/netcore/services/bin/net6.0/datatransferapi.dll",
+            "args": [
+                "--tlog=1"
+            ],
+            "cwd": "${workspaceFolder}/src/netcore/libraries/DataTransferAPILib",
+            "console": "integratedTerminal",
+            "preLaunchTask": "builddatatransferapi"
+        },
+    ]
+}

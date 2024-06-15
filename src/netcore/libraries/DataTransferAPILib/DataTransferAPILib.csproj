@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+  <ItemGroup>
+    <PackageReference Include="VSSystem.Extensions.Hosting" Version="1.2.1" />
+  </ItemGroup>
+  <PropertyGroup>
+    <Platforms>AnyCPU;x64</Platforms>
+    <AssemblyName>DataTransferAPILib</AssemblyName>
+    <Version>1.0.1</Version>
+    <FileVersion>1.0.1</FileVersion>
+    <OutputType>Library</OutputType>
+    <TargetFrameworks>net6.0;</TargetFrameworks>
+    <OutputPath>bin</OutputPath>
+  </PropertyGroup>  
+</Project>

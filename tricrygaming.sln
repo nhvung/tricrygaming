@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{20FC538E-89B0-48BC-865F-38DCB9A1D4E3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "netcore", "netcore", "{7BA7A113-E810-4E8D-965C-070607A628F0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "datatransferapi", "src\netcore\services\datatransferapi.csproj", "{BC52DD75-AC96-4A66-A904-C9BAC97FFDCC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "libraries", "libraries", "{FAB54948-272B-4761-BB13-E05FC5F65C63}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataTransferAPILib", "src\netcore\libraries\DataTransferAPILib\DataTransferAPILib.csproj", "{F8C88B1B-AC50-45B9-A924-4E03FA87467E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BC52DD75-AC96-4A66-A904-C9BAC97FFDCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC52DD75-AC96-4A66-A904-C9BAC97FFDCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC52DD75-AC96-4A66-A904-C9BAC97FFDCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC52DD75-AC96-4A66-A904-C9BAC97FFDCC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8C88B1B-AC50-45B9-A924-4E03FA87467E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8C88B1B-AC50-45B9-A924-4E03FA87467E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8C88B1B-AC50-45B9-A924-4E03FA87467E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8C88B1B-AC50-45B9-A924-4E03FA87467E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7BA7A113-E810-4E8D-965C-070607A628F0} = {20FC538E-89B0-48BC-865F-38DCB9A1D4E3}
+		{BC52DD75-AC96-4A66-A904-C9BAC97FFDCC} = {7BA7A113-E810-4E8D-965C-070607A628F0}
+		{FAB54948-272B-4761-BB13-E05FC5F65C63} = {7BA7A113-E810-4E8D-965C-070607A628F0}
+		{F8C88B1B-AC50-45B9-A924-4E03FA87467E} = {FAB54948-272B-4761-BB13-E05FC5F65C63}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {449D6084-411D-4032-9628-3179398D125F}
+	EndGlobalSection
+EndGlobal
