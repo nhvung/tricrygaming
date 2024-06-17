@@ -2,7 +2,7 @@
   <ItemGroup>
     <ProjectReference Include="../libraries/DataTransferAPILib/DataTransferAPILib.csproj" />
   </ItemGroup>
-  <Target Name="PublishRunWebpack" AfterTargets="ComputeFilesToPublish">
+  <!-- <Target Name="PublishRunWebpack" AfterTargets="ComputeFilesToPublish">
     <Exec WorkingDirectory="$(SpaRoot)" Command="npm install" />
     <Exec WorkingDirectory="$(SpaRoot)" Command="npm run wp" />
     <ItemGroup>
@@ -13,7 +13,7 @@
         <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
       </ResolvedFileToPublish>
     </ItemGroup>
-  </Target>
+  </Target> -->
   <PropertyGroup>
     <Platforms>x64</Platforms>
     <Version>1.0.1</Version>

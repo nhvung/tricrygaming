@@ -1,0 +1,36 @@
+﻿{
+  "C:\\custom-data\\code\\tricrygaming\\src\\netcore\\services\\datatransferapi.csproj": {
+    "Name": "datatransferapi",
+    "ExcludeCondition": {
+      "FileNames": [
+        "aspnetcorev2_inprocess.dll",
+        "e_sqlite3.dll",
+        "sni.dll",
+        "web.config"
+      ],
+      "FolderNames": [
+        "data"
+      ],
+      "FileExtensions": [
+        ".vspscc",
+        ".bak",
+        ".sln",
+        ".scc",
+        ".pdb",
+        ".bak",
+        ".tmp"
+      ],
+      "FilePrefixNames": [],
+      "FolderPrefixNames": []
+    },
+    "OutputPath": "../../../build/datatransferapi",
+    "Framework": "net6.0",
+    "Version": "1.0.1",
+    "FileVersion": "1.0.1",
+    "OutputType": "Exe",
+    "Description": "Lan dau tien build",
+    "AssemblyName": "datatransferapi",
+    "ProjectFilePath": "C:\\custom-data\\code\\tricrygaming\\src\\netcore\\services\\datatransferapi.csproj",
+    "ReleaseVersion": "1.0"
+  }
+}
