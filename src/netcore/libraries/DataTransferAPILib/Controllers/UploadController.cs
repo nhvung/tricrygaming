@@ -31,7 +31,11 @@ namespace DataTransferAPILib.Controllers
             {
                 if (Request.ContentLength > 0)
                 {
-                    string guid = IDGenerator.ConvertToGuid(startTime.Ticks, startTime.Ticks);
+                    string guid = Request.Headers["file-guid"];
+                    if (string.IsNullOrWhiteSpace(guid))
+                    {
+                        guid = IDGenerator.ConvertToGuid(startTime.Ticks, startTime.Ticks);
+                    }
                     await _saveToFile(guid);
                     object responseObj = new
                     {
