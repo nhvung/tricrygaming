@@ -50,7 +50,7 @@ namespace DataTransferAPILib.Controllers
             {
                 this.LogError(ex);
             }
-            await this.ResponseEmptyAsync(VSSystem.Net.ContentType.Html, System.Net.HttpStatusCode.OK);
+            await this.ResponseEmptyAsync();
         }
         async Task _saveToFile(string guid)
         {
